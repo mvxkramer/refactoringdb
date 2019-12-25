@@ -22,7 +22,7 @@ CREATE TABLE download(
 );
 
 # step 2
-LOAD DATA INFILE '/opt/lampp/htdocs/appstore_games.csv'
+LOAD DATA INFILE '/your/path/to/appstore_games.csv'
 IGNORE
 INTO TABLE download
 FIELDS TERMINATED BY ','
